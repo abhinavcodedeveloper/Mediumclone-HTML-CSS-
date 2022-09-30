@@ -6,6 +6,8 @@
 
 body {
     overflow-x: hidden;
+    width: 1540px;
+
 }
 
 .main-header-heading {
@@ -31,9 +33,6 @@ body {
 
 
 
-.container {
-    width: 1540px;
-}
 
 .headerbox {
     background-color: #FFC017;
@@ -319,14 +318,18 @@ a:hover {
     height: 214px;
 }
 
-.final {
-    margin-right: -8px;
-    float: right;
-    width: 490px;
-    position: sticky;
-    top: 1250px;
-}
 
+
+.final{
+    /* margin-right: -8px; */
+    margin-top: 98px;
+    margin-left: 180px;
+    /* float: right; */
+    width: 490px;
+    /* right: 0px; */
+    position: sticky;
+    top: 130px;
+}
 .star {
     position: relative;
     left: 214px;
@@ -341,10 +344,10 @@ a:hover {
     bottom: 29px;
 }
 
-footer {
-    position: sticky;
-    top: 1300px;
+.lastndfooter{
+    display: flex;
 }
+
 
 .bookmark {
     position: relative;
